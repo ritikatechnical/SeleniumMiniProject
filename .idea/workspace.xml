@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84898af-24d0-4daf-9063-1ceed80875a9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b84898af-24d0-4daf-9063-1ceed80875a9" name="Changes" comment="New changes">
+      <change afterPath="$PROJECT_DIR$/OpenBrowser/areaofcircle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenBrowser/findnumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenBrowser/forprint.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBrowser/test_sel_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBrowser/test_sel_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBrowser/test_sel_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBrowser/test_sel_02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenBrowser/test_sel_miniproject3.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBrowser/test_sel_miniproject3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBrowser/test_sele_miniproject4.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBrowser/test_sele_miniproject4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +41,17 @@
   "keyToString": {
     "Python tests.Python tests for test_sel_01.test_sel_Program1.executor": "Run",
     "Python tests.Python tests for test_sel_02.test_sel_Program1.executor": "Run",
+    "Python tests.Python tests for test_sel_miniproject3.test_mini_katalon.executor": "Run",
     "Python tests.Python tests for test_sel_miniproject3.test_mini_project3.executor": "Run",
     "Python tests.Python tests for test_sel_miniproject3.test_task_mini_project_3.executor": "Run",
     "Python tests.Python tests for test_sel_miniproject3.test_vwologin_negative_tc.executor": "Run",
     "Python tests.Python tests for test_sele_miniproject4.test_mini_project_3.executor": "Run",
+    "Python tests.Python tests in test_for_print.py.executor": "Run",
     "Python tests.Python tests in test_sel_01.py.executor": "Run",
     "Python tests.Python tests in test_sel_miniproject3.py.executor": "Run",
+    "Python.areaofcircle.executor": "Run",
+    "Python.findnumber.executor": "Run",
+    "Python.forprint.executor": "Run",
     "Python.test_sel_01.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -55,7 +59,29 @@
     "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_sel_miniproject3.test_vwologin_negative_tc">
+  <component name="RunManager">
+    <configuration name="forprint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenBrowser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenBrowser/forprint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_sel_01" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SeleniumProject1" />
       <option name="ENV_FILES" value="" />
@@ -78,6 +104,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_sel_miniproject3.test_mini_katalon" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenBrowser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sel_miniproject3.test_mini_katalon&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_sel_miniproject3.test_mini_project3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject1" />
       <option name="ENV_FILES" value="" />
@@ -90,21 +131,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_sel_miniproject3.test_mini_project3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_sel_miniproject3.test_task_mini_project_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenBrowser" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_sel_miniproject3.test_task_mini_project_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -123,7 +149,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_sele_miniproject4.test_mini_project_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_for_print.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,32 +160,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_sele_miniproject4.test_mini_project_3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_sel_miniproject3.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenBrowser" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/OpenBrowser/test_sel_miniproject3.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/OpenBrowser/test_for_print.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.forprint" />
+        <item itemvalue="Python tests.Python tests in test_for_print.py" />
+        <item itemvalue="Python tests.Python tests for test_sel_miniproject3.test_mini_katalon" />
         <item itemvalue="Python tests.Python tests for test_sel_miniproject3.test_vwologin_negative_tc" />
         <item itemvalue="Python tests.Python tests for test_sel_miniproject3.test_mini_project3" />
-        <item itemvalue="Python tests.Python tests for test_sel_miniproject3.test_task_mini_project_3" />
-        <item itemvalue="Python tests.Python tests for test_sele_miniproject4.test_mini_project_3" />
-        <item itemvalue="Python tests.Python tests in test_sel_miniproject3.py" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +190,20 @@
       <option name="presentableId" value="Default" />
       <updated>1724318275601</updated>
     </task>
+    <task id="LOCAL-00001" summary="New changes">
+      <option name="closed" value="true" />
+      <created>1724918326877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724918326877</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="New changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="New changes" />
   </component>
 </project>
